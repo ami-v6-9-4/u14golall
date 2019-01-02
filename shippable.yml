@@ -1,5 +1,8 @@
 language: go
 
+runtime:
+  nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
+  
 go:
   - 1.7.6
   - 1.8.5
